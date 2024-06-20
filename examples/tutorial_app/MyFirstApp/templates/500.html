@@ -1,0 +1,41 @@
+<!-- 500.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #343a40;
+        text-align: center;
+        padding: 50px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>500 - Page Not Found</h1>
+    <p>Sorry :(</p>
+    <p>This error means that there is a problem with the website's server.</p>
+    <p>
+      Something went wrong on the server side, but it's not clear exactly what.
+    </p>
+    <p><a href="{% url 'home' %}">Go to Home Page</a></p>
+  </body>
+</html>
